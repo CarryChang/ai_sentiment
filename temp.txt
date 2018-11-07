@@ -1,0 +1,25 @@
+y_val_ltc = pd.get_dummies(val_data['location_traffic_convenience'])[[-2, -1, 0, 1]].values
+y_val_ldfbd = pd.get_dummies(val_data['location_distance_from_business_district'])[[-2, -1, 0, 1]].values
+y_val_letf = pd.get_dummies(val_data['location_easy_to_find'])[[-2, -1, 0, 1]].values
+
+y_val_swt = pd.get_dummies(val_data['service_wait_time'])[[-2, -1, 0, 1]].values
+y_val_swa = pd.get_dummies(val_data['service_waiters_attitude'])[[-2, -1, 0, 1]].values
+y_val_spc = pd.get_dummies(val_data['service_parking_convenience'])[[-2, -1, 0, 1]].values
+y_val_sss = pd.get_dummies(val_data['service_serving_speed'])[[-2, -1, 0, 1]].values
+
+y_val_pl = pd.get_dummies(val_data['price_level'])[[-2, -1, 0, 1]].values
+y_val_pce = pd.get_dummies(val_data['price_cost_effective'])[[-2, -1, 0, 1]].values
+y_val_pd = pd.get_dummies(val_data['price_discount'])[[-2, -1, 0, 1]].values
+
+y_val_ed = pd.get_dummies(val_data['environment_decoration'])[[-2, -1, 0, 1]].values
+y_val_en = pd.get_dummies(val_data['environment_noise'])[[-2, -1, 0, 1]].values
+y_val_es = pd.get_dummies(val_data['environment_space'])[[-2, -1, 0, 1]].values
+y_val_ec = pd.get_dummies(val_data['environment_cleaness'])[[-2, -1, 0, 1]].values
+
+y_val_dp = pd.get_dummies(val_data['dish_portion'])[[-2, -1, 0, 1]].values
+y_val_dt = pd.get_dummies(val_data['dish_taste'])[[-2, -1, 0, 1]].values
+y_val_dl = pd.get_dummies(val_data['dish_look'])[[-2, -1, 0, 1]].values
+y_val_dr = pd.get_dummies(val_data['dish_recommendation'])[[-2, -1, 0, 1]].values
+
+y_val_ooe = pd.get_dummies(val_data['others_overall_experience'])[[-2, -1, 0, 1]].values
+y_val_owtca = pd.get_dummies(val_data['others_willing_to_consume_again'])[[-2, -1, 0, 1]].values
